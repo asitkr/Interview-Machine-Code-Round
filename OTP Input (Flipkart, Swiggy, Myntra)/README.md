@@ -10,3 +10,28 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# 🔐 React OTP Input Component
+
+This is a simple and responsive OTP (One-Time Password) input component built with **React** and **Tailwind CSS**. It supports automatic focus shifting between inputs as digits are entered or deleted.
+
+---
+
+## ✨ Features
+
+- Auto-focuses to the next input on typing a digit
+- Automatically focuses the previous input on backspace
+- Accepts only numeric input
+- Fully responsive with Tailwind CSS
+- Customizable digit count
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-otp-component.git
+cd react-otp-component
+
