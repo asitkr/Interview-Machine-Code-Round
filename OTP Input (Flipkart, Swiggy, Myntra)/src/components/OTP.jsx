@@ -27,17 +27,17 @@ const OTP = ({OTP_DIGIT_COUNT}) => {
     };
 
     return (
-        <div className="w-full h-full flex items-center justify-center flex-col gap-14">
-            <p className="font-semibold text-5xl leading-4">OTP validation</p>
+        <div className="w-full h-full flex items-center justify-center flex-col gap-10 sm:gap-14">
+            <p className="font-semibold text-xl sm:text-5xl leading-4">OTP validation</p>
 
-            <div className="w-full flex flex-row justify-center gap-10">
+            <div className="w-full flex flex-row justify-center gap-6 sm:gap-10">
                 {
                     input && input?.map((item, index) => (
                         <input
                             key={index}
                             ref={(input) => (inputRef.current[index] = input)}
                             type="text"
-                            className="border border-black rounded-lg flex w-22 h-22 text-center text-3xl"
+                            className="border border-black rounded-lg flex w-14 sm:w-22 h-14 sm:h-22 text-center text-xl sm:text-3xl"
                             value={input[index]}
                             onChange={(e) => handleChangeInput(e, index)}
                             onKeyDown={(e) => handleOnKeyDown(e, index)}
