@@ -32,6 +32,5 @@ This is a simple and responsive OTP (One-Time Password) input component built wi
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/react-otp-component.git
-cd react-otp-component
+git clone https://github.com/asitkr/Interview-Machine-Code-Round/tree/main/OTP%20Input%20(Flipkart%2C%20Swiggy%2C%20Myntra)
 
